@@ -16,6 +16,7 @@ resource "google_compute_instance" "vm" {
     }
   }
 
+  metadata_startup_script = file("setup.sh")
   network_interface {
     network = each.value.network_interface.network
     access_config {

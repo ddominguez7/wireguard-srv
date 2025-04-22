@@ -1,0 +1,10 @@
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform
+.terraformrc
+.infracost
+.terraform.lock.hcl
+docker-compose.override.yaml
+docker-compose.override.yml
+

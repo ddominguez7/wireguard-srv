@@ -13,6 +13,11 @@ variable "zone" {
   type        = string
 }
 
+variable "GOOGLE_CREDENTIALS" {
+  description = "The JSON key file for the GCP service account."
+  type        = string
+}
+
 variable "firewall_rule" {
   type = map(object({
     name          = string
